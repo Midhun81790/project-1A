@@ -1,0 +1,15 @@
+# PyMuPDF for PDF processing
+PyMuPDF==1.23.14
+
+# Optional: BERT-based classification (only if USE_BERT=true)
+# Comment out these lines to reduce image size if not using BERT
+torch==2.1.2
+transformers==4.36.2
+sentence-transformers==2.2.2
+
+# Core dependencies
+numpy==1.24.3
+requests==2.31.0
+
+# Optional: For enhanced text processing
+nltk==3.8.1
